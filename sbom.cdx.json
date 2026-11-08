@@ -1,0 +1,109 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:35a0f7bf-3657-5ea3-a5e9-765344de4849",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:34:13Z",
+    "component": {
+      "type": "application",
+      "name": "L_VAGEN",
+      "version": "fbb4b3a8bf63",
+      "bom-ref": "pkg:generic/anticloud/L_VAGEN@fbb4b3a8bf63",
+      "purl": "pkg:generic/anticloud/L_VAGEN@fbb4b3a8bf63",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "fbb4b3a8bf636f290c9c59fc346f756849e9c241"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/volcengine/verl.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=2.0.0",
+      "purl": "pkg:pypi/numpy@2.0.0",
+      "bom-ref": "pypi/numpy@>=2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "pyarrow",
+      "version": ">=19.0.0",
+      "purl": "pkg:pypi/pyarrow@19.0.0",
+      "bom-ref": "pypi/pyarrow@>=19.0.0"
+    },
+    {
+      "type": "library",
+      "name": "tensordict",
+      "version": ">=0.8.0,<=0.10.0,!=0.9.0",
+      "purl": "pkg:pypi/tensordict@0.8.0,<=0.10.0,!=0.9.0",
+      "bom-ref": "pypi/tensordict@>=0.8.0,<=0.10.0,!=0.9.0"
+    },
+    {
+      "type": "library",
+      "name": "transformers",
+      "version": ">=5.5.3,!=5.6.0,<5.13",
+      "purl": "pkg:pypi/transformers@5.5.3,!=5.6.0,<5.13",
+      "bom-ref": "pypi/transformers@>=5.5.3,!=5.6.0,<5.13"
+    },
+    {
+      "type": "library",
+      "name": "packaging",
+      "version": ">=20.0",
+      "purl": "pkg:pypi/packaging@20.0",
+      "bom-ref": "pypi/packaging@>=20.0"
+    },
+    {
+      "type": "library",
+      "name": "liger-kernel",
+      "version": ">=0.8.2",
+      "purl": "pkg:pypi/liger-kernel@0.8.2",
+      "bom-ref": "pypi/liger-kernel@>=0.8.2"
+    },
+    {
+      "type": "library",
+      "name": "vllm",
+      "version": ">=0.18.0",
+      "purl": "pkg:pypi/vllm@0.18.0",
+      "bom-ref": "pypi/vllm@>=0.18.0"
+    },
+    {
+      "type": "library",
+      "name": "tensorrt-llm",
+      "version": ">=1.2.0rc6",
+      "purl": "pkg:pypi/tensorrt-llm@1.2.0rc6",
+      "bom-ref": "pypi/tensorrt-llm@>=1.2.0rc6"
+    },
+    {
+      "type": "library",
+      "name": "torch",
+      "version": "==2.9.1",
+      "purl": "pkg:pypi/torch@2.9.1",
+      "bom-ref": "pypi/torch@==2.9.1"
+    },
+    {
+      "type": "library",
+      "name": "trl",
+      "version": "<=0.9.6",
+      "purl": "pkg:pypi/trl@0.9.6",
+      "bom-ref": "pypi/trl@<=0.9.6"
+    }
+  ]
+}
